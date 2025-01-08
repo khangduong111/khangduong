@@ -1,0 +1,46 @@
+/* Định dạng chung cho liên kết trong header và footer */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hiệu ứng hover cho liên kết */
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Phần header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer nav ul li a {
+    color: white;
+}
+
+footer nav ul li a:hover {
+    color: #4CAF50;
+}
